@@ -7,7 +7,6 @@
 
 /* BODY CSS */
 body {
-     border: 1px dotted gray;
 		 background-image:  url("geisellib.png");
 		 background-repeat: no-repeat;
 		 background-size: 100% 100%;
@@ -76,7 +75,7 @@ hr {
 /* Set a style for all buttons */
 button {
   background-color: #005e93;
-  width: 50%;
+  width: inherit;
   color:#ffbe00;
   padding: 14px 20px;
   margin: 8px 0;
@@ -85,6 +84,7 @@ button {
   opacity: 0.9;
 	font-weight:bold;
 }
+
 
 /* BUTTON HOVER CSS */
 button:hover {
@@ -270,7 +270,7 @@ i {
 
 /* OPEN BUTTON CLASS CSS */
 .openbtn {
-    width: 10%;
+    width: 17%;
     font-size: 20px;
     cursor: pointer;
     background-color: #111;
