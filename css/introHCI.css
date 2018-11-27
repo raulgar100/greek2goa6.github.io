@@ -7,7 +7,7 @@
 
 /* BODY CSS */
 body {
-		 background-image:  url("geisellib.png");
+		 background-image:  url("../images/geisellib.png");
 		 background-repeat: no-repeat;
 		 background-size: 100% 100%;
      padding: 225px;
@@ -76,20 +76,20 @@ hr {
 button {
   background-color: #005e93;
   width: inherit;
-  color:#ffbe00;
+  color: #ffbe00;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
   opacity: 0.9;
-	font-weight:bold;
+	font-weight: bold;
 }
-
 
 /* BUTTON HOVER CSS */
 button:hover {
   opacity:1;
 }
+
 
 /* Extra styles for the cancel button */
 .cancelbtn {
@@ -181,10 +181,46 @@ i {
 }
 
 /* QUESTIONNAIRE NUMBER BUTTON CSS */
-.number-button {
-  background-color:  #005e93;
-  width: 10%;
+.academics-number-button {
+  background-color: #005e93;
+  width: 7%;
 }
+.academics-number-button:focus{
+  background-color: green;
+}
+
+.athletics-number-button {
+  background-color: #005e93;
+  width: 7%;
+}
+.athletics-number-button:focus {
+  background-color: green;
+}
+
+.leadership-number-button {
+  background-color: #005e93;
+  width: 7%;
+}
+.leadership-number-button:focus {
+  background-color: green;
+}
+
+.social-number-button {
+  background-color: #005e93;
+  width: 7%;
+}
+.social-number-button:focus {
+  background-color: green;
+}
+
+.philanthropy-number-button {
+  background-color: #005e93;
+  width: 7%;
+}
+.philanthropy-number-button:focus {
+  background-color: green;
+}
+
 
 /* ORGANIZAITON/FRATERNITY BUTTON */
 .org-btn {
@@ -198,6 +234,18 @@ i {
   width: 10%;
 }
 
+/* SUBMIT BUTTON DISABLED CSS */
+.submitbtn:disabled,
+.submitbtn[disabled]{
+  background-color: #cccccc;
+  width: 10%;
+}
+
+.attribute .submitbtn:disabled,
+.submitbtn[disabled]{
+  color: black;
+  font-weight: bold;
+}
 
 
 /* MATCHES PAGE CSS */
@@ -222,10 +270,36 @@ i {
 }
 
 /* Raul Change: this is the styling for for the questionnaire buttons */
-.attribute .number-button {
+.attribute .academics-number-button {
 	color:#ffbe00;
 	font-weight:bold;
 }
+
+.attribute .athletics-number-button {
+  color:#ffbe00;
+  font-weight:bold;
+}
+
+.attribute .leadership-number-button {
+  color:#ffbe00;
+  font-weight:bold;
+}
+
+.attribute .social-number-button {
+  color:#ffbe00;
+  font-weight:bold;
+}
+
+.attribute .philanthropy-number-button {
+  color:#ffbe00;
+  font-weight:bold;
+}
+
+/* .philanthropy-number-button:visited{
+	background-color: red;
+} */
+
+
 
 /* SIDEBAR CLASS CSS */
 .sidebar {
@@ -270,14 +344,13 @@ i {
 
 /* OPEN BUTTON CLASS CSS */
 .openbtn {
-    width: 17%;
+    width: inherit;
     font-size: 20px;
     cursor: pointer;
     background-color: #111;
     color: white;
     padding: 10px 5px;
     border: none;
-
 }
 
 /* OPEN BUTTON CLASS ON HOVER CSS */
@@ -309,3 +382,24 @@ table {
 	background-color: white;
 }
 /* ALLSTON: EDITS END HERE */
+
+/* RAUL EDIT FOR THE SCROLLING LOGO CSS */
+/* .sidelogo {
+	position: fixed;
+	top:0;
+	background-position: right;
+  padding-right: 225px;
+	height: 100vh;
+	z-index: ;
+	background: url("../events.html");
+}
+
+div .sidelogo{
+	column-width: 225px;
+} */
+
+/* RAUL EDIT FOR THE MANUALLY CREATED FRATPNG CSS */
+#fratpng{
+	width: 250px;
+	height: 123px;
+}
